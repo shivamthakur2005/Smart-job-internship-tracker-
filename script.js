@@ -8,7 +8,7 @@ const interviewsEl = document.getElementById("interviews");
 const offersEl = document.getElementById("offers");
 const rejectionsEl = document.getElementById("rejections");
 
-// Load data on page load
+
 displayApplications();
 updateSummary();
 
@@ -76,3 +76,4 @@ function updateSummary() {
         app => app.result === "Rejected" || app.stage === "Rejected"
     ).length;
 }
+
